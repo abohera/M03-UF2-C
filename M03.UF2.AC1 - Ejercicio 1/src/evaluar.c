@@ -6,7 +6,7 @@ int numero(){
 	do{
 		printf("Introduce un número: ");
 		scanf("%d", &n);
-	}while(n <= 0);
+	}while(n < 0);
 	return n;
 }
 
